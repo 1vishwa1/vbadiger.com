@@ -38,8 +38,8 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'vb.',
+    subtitle: 'Personal website of Vishwanath Basavaraj Badiger',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -59,12 +59,6 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
-        }
-    ],
-    footerNavLinks: [
-        {
             text: 'About',
             href: '/about'
         },
@@ -72,19 +66,21 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
+    ],
+    footerNavLinks: [
+        {
+            text: 'Tags',
+            href: '/tags'
+        },
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Medium',
+            href: 'https://medium.com/@vishwanath.masters'
         },
         {
             text: 'Instagram',
@@ -96,12 +92,12 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
-        image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
-        },
+        title: "Hey, I'm Vishwanath! 👋",
+        text: "I'm currently a Master's student at Northeastern University, Boston, studying Engineering Management. I have about two years of experience working on various end-to-end verticals from supply chain, logistics, marketing, and other verticals for an automotive startup in Bangalore, India, and have also earned a Bachelor of Engineering in Mechanical Engineering from the esteemed Visvesvaraya Technological University. This is my personal website, where I hope to share my experience and knowledge with the world on topics ranging from automotive intricacies and engineering marvels, to the complexities of supply chain, the enchanting world of Indian music, and everything else in-between. Hope you enjoy!",
+        // image: {
+        //     src: '/hero.jpeg',
+        //     alt: 'A person sitting at a desk in front of a computer'
+        // },
         actions: [
             {
                 text: 'Get in Touch',
@@ -109,11 +105,12 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
+    // only to be enabled when I have a newsletter
+    // subscribe: {
+    //     title: 'Subscribe to my newsletter',
+    //     text: 'One update per week. All the latest posts directly in your inbox.',
+    //     formUrl: '#'
+    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };

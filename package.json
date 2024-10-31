@@ -1,5 +1,6 @@
 {
-    "name": "dante-astro-theme",
+    "name": "vbadiger.com",
+    "description": "Personal website of Vishwanath Badiger, based on the Dante theme built with Astro",
     "type": "module",
     "version": "0.0.1",
     "scripts": {
