@@ -44,8 +44,8 @@ const siteConfig: SiteConfig = {
     subtitle: 'Personal website of Vishwanath Badiger',
     description: 'Personal website of Vishwanath Badiger',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/favicon.svg',
+        alt: 'Personal website of Vishwanath Badier'
     },
     headerNavLinks: [
         {
