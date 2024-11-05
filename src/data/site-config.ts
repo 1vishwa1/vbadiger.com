@@ -25,6 +25,7 @@ export type Subscribe = {
 export type SiteConfig = {
     logo?: Image;
     title: string;
+    homeTitle: string;
     subtitle?: string;
     description: string;
     image?: Image;
@@ -38,9 +39,10 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'vb.',
-    subtitle: 'Personal website of Vishwanath Basavaraj Badiger',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Vishwanath Badiger',
+    homeTitle: "vb.",
+    subtitle: 'Personal website of Vishwanath Badiger',
+    description: 'Personal website of Vishwanath Badiger',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -84,11 +86,11 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://instagram.com/1vishwanath'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'LinkedIn',
+            href: 'https://linkedin.com/in/vishwanath-badiger'
         }
     ],
     hero: {

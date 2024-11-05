@@ -5,7 +5,7 @@ seo:
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
     src: '/about.jpeg'
-    alt:
+    alt: ''
 ---
 
 <!-- ![Alt text for image](/about.jpeg) -->
